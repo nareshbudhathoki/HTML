@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select</title>
+</head>
+<body>
+  
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+
+    <!-- Dropdown for Services -->
+    <div class="dropdown">
+      <button class="dropbtn">Services ▼</button>
+      <div class="dropdown-content">
+        <a href="/services/design">Design</a>
+        <a href="/services/development">Development</a>
+        <a href="/services/devops">DevOps</a>
+      </div>
+    </div>
+
+    <a href="/contact">Contact</a>
+  </nav>
+  <h2>Learning about the select and drop down</h2>
+  <form action="">
+    <label for="fruits">Choose a fruit:</label>
+    <select name="fruits" id="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+    </select>
+
+    <hr>
+    <label for="country">Choose country</label>
+    <select name="country" id="country">
+      <option value="India">India</option>
+      <option value="China">China</option>
+      <option value="Uk">UK</option>
+      <option value="USA">USA</option>
+    </select>
+
+  </form>
+</body>
+</html>
